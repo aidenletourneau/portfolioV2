@@ -1,0 +1,152 @@
+div, body, p, ul, h1, h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Outfit, sans-serif;
+}
+
+a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(101, 101, 101);
+}
+
+li {
+  list-style-type: none;
+  line-height: 32px;
+  text-decoration: underline;
+}
+
+body {
+  padding: 200px;
+  background-image: url("./assets/background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #091B32;
+}
+
+.header {
+  top: 30px;
+  position: absolute;
+  width: 1200px;
+  font-family: Outfit;
+  color: white;
+  height: 150px;
+  background-color: rgb(8, 55, 96);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.page-title {
+  font-size: 2.5em;
+  margin-left: 30px;
+}
+
+nav {
+  text-align: right;
+  font-size: 1.3em;
+  margin-right: 20px;
+}
+
+.card {
+  margin: auto;
+  width: 250px;
+  height: calc(240 + 40 + 120 + 50);
+  border-radius: 10px;
+  background: rgb(8, 55, 96);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-rows: 240px 40px 120px 50px;
+  color: white;
+  animation: fadeIn 1s ease-in-out forwards; /* Apply the animation */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+.card .card-picture {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.card .card-title {
+  font-size: 1.6em;
+  margin: auto;
+  line-height: 10px;
+}
+
+.card .card-description {
+  display: inline;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.info-region {
+  margin-top: 30px;
+  width: 900px;
+  border-radius: 10px;
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.heading {
+  color: white;
+  font-weight: 400;
+  font-size: 1.7em;
+  margin-top: 20px;
+  display: block;
+  background-color: rgb(8, 55, 96);
+  border-radius: 10px;
+  border: 8px solid;
+  border-color: rgb(8, 55, 96);
+}
+
+.body-center {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100%;
+}
+
+.bio {
+  margin-top: 30px;
+  width: 50%;
+}
+
+.skill-card {
+  width: 200px;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  background: rgb(8, 55, 96);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-picture {
+  width: 50px;
+  height: 50px;
+}
+
+.skill {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+}

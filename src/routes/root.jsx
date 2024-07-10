@@ -5,7 +5,7 @@ import picture1 from '../assets/portfolioIMG.png'
 import picture2 from '../assets/droneIMG.png'
 import picture3 from '../assets/blogIMG.png'
 import react_logo from '../assets/react-logo.png'
-import SkillCard from '../SkillCard'
+
 
 function Root() {
   return(
@@ -20,11 +20,7 @@ function Root() {
         <Card picture={picture3} title="Blog Website" description="A blog website utilizing express and a mongoDB database for users to store "/>
       </div>
       <Heading title="Skills"/>
-      <div className="info-region">
-        <SkillCard skill="React" picture={react_logo}/>
-        <SkillCard skill="React" picture={react_logo}/>
-        <SkillCard skill="React" picture={react_logo}/>
-      </div>
+      
       <Heading title="Projects"/>
       </div>
     </>

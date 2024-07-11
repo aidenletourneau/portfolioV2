@@ -7,7 +7,7 @@ export default function Resume() {
 
     <div class="resume">
       
-      
+      <div className="test"></div>
     </div>
 
   )

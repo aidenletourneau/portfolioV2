@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import ErrorPage from './routes/error-page.jsx';
 import Resume from './routes/resume-page.jsx'
+import Header from './Header.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Header/>
     <RouterProvider router={router} />
   </React.StrictMode>,
 )

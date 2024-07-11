@@ -1,11 +1,11 @@
 
-export default function Header(props){
+export default function Header(){
   
   return(
     <header className="header">
       <div className="page-title">
         <p>Aiden Letourneau</p>
-        <p>{props.title}</p>
+        <p>{"Computer Science Portfolio"}</p>
       </div>
       
       <nav>

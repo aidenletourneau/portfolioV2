@@ -17,8 +17,6 @@ function Root() {
         <Card link="https://github.com/aidenletourneau/portfolio" picture={picture2} title="Orientation Drone" description="Part of team developing drone software that will be used by UCF faculty to film and photograph future UCF orientations"/>
         <Card picture={picture3} title="Blog Website" description="A blog website utilizing express and a mongoDB database for users to store "/>
       </div>
-      <Heading title="Skills"/>
-      <Heading title="Projects"/>
       </div>
     </>
   );

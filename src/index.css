@@ -148,6 +148,9 @@ nav {
 .bio {
   margin-top: 30px;
   width: 50%;
+  background: rgba(221, 221, 221, 0.2);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .skill-card {
@@ -169,6 +172,8 @@ nav {
   height: 30px;
 }
 
-
+.resume{
+  
+}
 
 

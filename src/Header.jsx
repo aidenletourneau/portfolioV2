@@ -5,7 +5,7 @@ export default function Header(){
     <header className="header">
       <div className="page-title">
         <p>Aiden Letourneau</p>
-        <p>{"Computer Science Portfolio"}</p>
+        <p>Computer Science Portfolio</p>
       </div>
       
       <nav>

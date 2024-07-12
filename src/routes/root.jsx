@@ -4,6 +4,10 @@ import picture1 from '../assets/portfolioIMG.png'
 import picture2 from '../assets/droneIMG.png'
 import picture3 from '../assets/blogIMG.png'
 import Header from '../Header'
+import reactLogo from '../assets/react-logo.png'
+import pythonLogo from '../assets/python-logo.svg'
+import mongodbLogo from '../assets/mongodb-logo.png'
+import expressLogo from '../assets/express-logo.png'
 
 function Root() {
   return(
@@ -18,7 +22,7 @@ function Root() {
           picture={picture1} 
           title="Portfolio Website" 
           description="This portfolio website was made with a front-end consisting of node.js, express, and react" 
-          skills={[["React", '../assets/react-logo'], ["MongoDB", '../assets/mongodb-logo']]}/>
+          skills={[["React", reactLogo], ]}/>
 
 
 
@@ -27,12 +31,12 @@ function Root() {
           picture={picture2} 
           title="Orientation Drone" 
           description="Part of team developing drone software that will be used by UCF faculty to film and photograph future UCF orientations"
-          skills={[["React", '../assets/react-logo'], ["MongoDB", '../assets/mongodb-logo']]}/>
+          skills={[["Python", pythonLogo], ]}/>
         <Card 
           picture={picture3} 
           title="Blog Website" 
           description="A blog website utilizing express and a mongoDB database for users to store "
-          skills={[["React", '../assets/react-logo'], ["MongoDB", '../assets/mongodb-logo']]}/>
+          skills={[["Express", expressLogo], ["MongoDB", mongodbLogo]]}/>
       </div>
       </div>
     </>

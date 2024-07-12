@@ -7,7 +7,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ErrorPage from './routes/error-page.jsx';
-import Resume from './routes/resume-page.jsx'
+import ResumePage from './routes/resume-page.jsx'
+import PortfolioPage from './routes/portfolio-page.jsx';
+import AboutPage from './routes/about-page.jsx'
 
 
 const router = createBrowserRouter([
@@ -15,11 +17,22 @@ const router = createBrowserRouter([
     path: '/',
     element: <Root/>,
     errorElement: <ErrorPage/>,
+    children: [
+      {
+        path: '/resume',
+        element: <ResumePage/>
+      },
+      {
+        path: '/portfolio',
+        element: <PortfolioPage/>
+      },
+      {
+        path: '/about',
+        element: <AboutPage/>
+      },
+    ]
   },
-  {
-    path: '/resume',
-    element: <Resume/>
-  }
+  
 ]);
 
 

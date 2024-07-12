@@ -121,7 +121,7 @@ nav {
   border-radius: 10px;
   display: flex; 
   flex-direction: row; 
-  align-items: top;
+  align-items: flex-start;
   justify-content: center;
 }
 

@@ -8,6 +8,7 @@ import reactLogo from '../assets/react-logo.png'
 import pythonLogo from '../assets/python-logo.svg'
 import mongodbLogo from '../assets/mongodb-logo.png'
 import expressLogo from '../assets/express-logo.png'
+import nodeLogo from '../assets/node-logo.png'
 
 function Root() {
   return(
@@ -22,10 +23,7 @@ function Root() {
           picture={picture1} 
           title="Portfolio Website" 
           description="This portfolio website was made with a front-end consisting of node.js, express, and react" 
-          skills={[["React", reactLogo], ]}/>
-
-
-
+          skills={[["React", reactLogo], ["Node", nodeLogo]]}/>
         <Card 
           link="https://github.com/aidenletourneau/portfolio" 
           picture={picture2} 

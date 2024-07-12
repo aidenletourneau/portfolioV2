@@ -25,6 +25,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #091B32;
+  background-position: center;
 }
 
 .page-content{
@@ -70,7 +71,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
   width: 250px;
-  border-radius: 10px;
+  border-radius: 20px;
   background: rgb(8, 55, 96);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -110,9 +111,9 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: row;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  justify-content: space-evenly;
+  padding: 10px 0px 10px 0px;
+  justify-content: center;
+  gap: 10px
 }
 
 .info-region {
@@ -154,8 +155,8 @@ nav {
 }
 
 .skill-card {
+  font-size: 100%;
   color: white;
-  width: 100px;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -170,6 +171,7 @@ nav {
 .skill-picture {
   width: 30px;
   height: 30px;
+  padding-right: 5px;
 }
 
 

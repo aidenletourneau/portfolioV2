@@ -1,26 +1,25 @@
 
 
-export default function Card(props){
+export default function Card({link, picture, title, description, skills}){
   
   return (
       <div className="card">
-        <img className="card-picture" src={props.picture}/>
-        <a href={props.link} className="card-title">{props.title}</a>
-        <p className="card-description">{props.description}</p>
+        <img className="card-picture" src={picture}/>
+        <a href={link} className="card-title">{title}</a>
+        <p className="card-description">{description}</p>
         <div className="card-skills">
-          <Skill picture="src\assets\react-logo.png" skill="React"></Skill>
-          <Skill picture="src\assets\react-logo.png" skill="React"></Skill>
-          
+          {skills.map((skill, index) => 
+          <Skill key={index} skill={skill[0]} picture={skill[1]} />) || <h1>No Projects!</h1>}
         </div>
       </div>
   );
 }
 
-function Skill(props){
+function Skill({skill, picture}){
   return (
     <div className="skill-card">
-      <img className="skill-picture" src={props.picture}></img>
-      <h3>{props.skill}</h3>
+      <img className="skill-picture" src={picture}></img>
+      <p>{skill}</p>
     </div>
   )
 }

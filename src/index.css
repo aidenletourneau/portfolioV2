@@ -117,13 +117,21 @@ nav {
 }
 
 .info-region {
-  margin-top: 30px;
+  margin: 30px 0px 30px 0px;
   width: 900px;
   border-radius: 10px;
   display: flex; 
   flex-direction: row; 
   align-items: flex-start;
   justify-content: center;
+}
+
+.construction {
+  color: white;
+}
+
+.download-link {
+  margin-bottom: 50px;
 }
 
 .heading {

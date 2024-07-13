@@ -32,7 +32,7 @@ export default function PortfolioPage() {
           <Card 
             picture={picture3} 
             title="Blog Website" 
-            description="A blog website utilizing express and a mongoDB database for users to store "
+            description="A blog website utilizing express and a mongoDB database for users to store their previous posts and change existing ones"
             skills={[["Express", expressLogo], ["MongoDB", mongodbLogo]]}/>
         </div>
     </>

@@ -15,7 +15,6 @@ export default function PortfolioPage() {
 
   return (
     <>
-      <p className="bio">This is my personal portfolio project while I continue to build my skills studying computer science at the University of Central Florida, Orlando. You will find any projects I'm working and my current resume on the website and a little bio section about me.</p>
         <Heading title="Projects"/>
         <div className="info-region">
           <Card 

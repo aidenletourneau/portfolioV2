@@ -22,10 +22,11 @@ li {
 
 body {
   background-image: url("./assets/background.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #091B32;
   background-position: center;
+  height: 100vh;
 }
 
 .page-content{

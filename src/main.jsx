@@ -18,6 +18,7 @@ const router = createBrowserRouter([
     element: <Root/>,
     errorElement: <ErrorPage/>,
     children: [
+      
       {
         path: '/resume',
         element: <ResumePage/>

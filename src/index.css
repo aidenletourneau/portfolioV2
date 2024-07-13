@@ -127,6 +127,23 @@ nav {
   justify-content: center;
 }
 
+.about-picture{
+  height: 400px;
+  width: 300px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  margin-right: 20px;
+  border-radius: 30px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-text {
+  font-size: 27px;
+  margin-left: 20px;
+}
+
 .construction {
   color: white;
 }

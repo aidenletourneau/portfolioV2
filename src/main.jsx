@@ -18,7 +18,6 @@ const router = createBrowserRouter([
     element: <Root/>,
     errorElement: <ErrorPage/>,
     children: [
-      
       {
         path: '/resume',
         element: <ResumePage/>
@@ -28,7 +27,7 @@ const router = createBrowserRouter([
         element: <PortfolioPage/>
       },
       {
-        path: '/about',
+        index: true,
         element: <AboutPage/>
       },
     ]

@@ -69,8 +69,6 @@ nav {
 }
 
 .card {
-  margin-left: auto;
-  margin-right: auto;
   width: 250px;
   border-radius: 20px;
   background: rgb(8, 55, 96);
@@ -114,7 +112,8 @@ nav {
   flex-direction: row;
   padding: 10px 0px 10px 0px;
   justify-content: center;
-  gap: 10px
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .info-region {
@@ -125,6 +124,8 @@ nav {
   flex-direction: row; 
   align-items: flex-start;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .about-picture{

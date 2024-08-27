@@ -141,6 +141,8 @@ nav {
 .about-text {
   font-size: 27px;
   margin-left: 20px;
+  width: 400px;
+  align-items: center;
 }
 
 .download-link {

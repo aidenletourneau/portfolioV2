@@ -2,12 +2,17 @@ export default function ResumePage() {
   return (
     <>
       <div className='info-region'>
-        <embed
-          src='Letourneau_Aiden_Resume.pdf'
-          width='600'
-          height='700'></embed>
+        <object
+          data='/assets/Letourneau_Aiden_Resume.pdf'
+          type='application/pdf'
+          width='75%'
+          height='800px'
+        />
       </div>
-      <a className='download-link' href='Letourneau_Aiden_Resume.pdf' download>
+      <a
+        className='download-link'
+        href='/assets/Letourneau_Aiden_Resume.pdf'
+        download>
         Download
       </a>
     </>

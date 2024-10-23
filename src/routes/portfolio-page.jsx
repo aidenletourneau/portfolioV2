@@ -1,17 +1,17 @@
-import picture1 from "../../public/assets/portfolioIMG.png";
-import picture2 from "../../public/assets/droneIMG.png";
-import picture3 from "../../public/assets/blogIMG.png";
-import meddyImg from "../../public/assets/meddyImg.png";
-import nextImg from "../../public/assets/next.png";
-import reactLogo from "../../public/assets/react-logo.png";
-import pythonLogo from "../../public/assets/python-logo.svg";
-import mongodbLogo from "../../public/assets/mongodb-logo.png";
-import expressLogo from "../../public/assets/express-logo.png";
-import nodeLogo from "../../public/assets/node-logo.png";
-import pekkishImg from "../../public/assets/pekkish-img.png";
+import picture1 from "/assets/portfolioIMG.png";
+import picture2 from "/assets/droneIMG.png";
+import picture3 from "/assets/blogIMG.png";
+import meddyImg from "/assets/meddyImg.png";
+import nextImg from "/assets/next.png";
+import reactLogo from "/assets/react-logo.png";
+import pythonLogo from "/assets/python-logo.svg";
+import mongodbLogo from "/assets/mongodb-logo.png";
+import expressLogo from "/assets/express-logo.png";
+import nodeLogo from "/assets/node-logo.png";
+import pekkishImg from "/assets/pekkish-img.png";
 import Heading from "../components/Heading";
 import Card from "../components/Card";
-import mapboxLogo from "../../public/assets/mapbox-logo.png";
+import mapboxLogo from "/assets/mapbox-logo.png";
 
 export default function PortfolioPage() {
   return (

@@ -4,8 +4,8 @@ export default function AboutPage() {
     <div className='info-region'>
       <img className='about-picture' src={profilePic}></img>
       <p className='about-text'>
-        Hey! I'm Aiden... I'm a software developer focused on developing
-        full-stack applications.
+        Hey! I'm Aiden... I'm a software developer focused on full-stack
+        applications.
       </p>
     </div>
   );
